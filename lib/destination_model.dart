@@ -21,8 +21,17 @@ List<Activity> activities = [
     imageUrl: 'assets/images/gua_kelam.jpg',
     name: 'Gua Kelam',
     type: 'Cave',
+    rating: 2,
+    startTimes: ['9:00 am', '11:00 am'],
+    price: 30,
+  ),
+  Activity(
+    imageUrl: 'assets/images/bukit_air.jpg',
+    name: 'Bukit Air',
+    type: 'Cave',
     rating: 5,
-    price: 30
+    startTimes: ['9:00 am', '11:00 am'],
+    price: 30,
   )
 ];
 
@@ -31,6 +40,13 @@ List<Destination> destinations = [
     imageUrl: 'assets/images/gua_kelam.jpg',
     city: 'Gua Kelam',
     country: 'Cave',
+    description: 'flejnf',
+    activities: activities
+  ),
+  Destination(
+    imageUrl: 'assets/images/bukit_air.jpg',
+    city: 'Bukit Air',
+    country: 'Mountain',
     description: 'flejnf',
     activities: activities
   )

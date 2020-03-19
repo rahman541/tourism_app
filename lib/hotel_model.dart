@@ -2,13 +2,13 @@ class Hotel {
   String imageUrl;
   String name;
   String address;
-  int prices;
+  int price;
 
   Hotel({
     this.imageUrl,
     this.name,
     this.address,
-    this.prices,
+    this.price,
   });
 }
 
@@ -17,6 +17,6 @@ final List<Hotel> hotels = [
     imageUrl: 'assets/images/gua_kelam.jpg',
     name: 'Hotel Seri Malaysia',
     address: 'Kangar',
-    prices: 175,
+    price: 175,
   ),
 ];
